@@ -6,7 +6,7 @@ const Home = () =>{
     return <div className="home">
         <div className="home-container">
             <img className="home-img"
-            src="https://m.media-amazon.com/images/I/61qa3132IFL._SX3000_.jpg"/>
+            src="https://m.media-amazon.com/images/I/61qa3132IFL._SX3000_.jpg" alt="home"/>
 
         <div className="home-row">
             <Product title='BoAt headphones'

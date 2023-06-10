@@ -14,7 +14,7 @@ const Product = ({id,title,image,price,rating}) =>{
                 {Array(rating).fill().map((_,i)=><p>⭐</p>)}
             </div>
         </div>
-        <img className="product-img" src={image}></img>
+        <img className="product-img" src={image} alt="product"></img>
         <button className="product-button">Add to Basket</button>
     </div>
 }
