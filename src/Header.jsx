@@ -1,8 +1,8 @@
 import React from "react";
 import './Header.css'
 import amazonlogo from './amazon-logo.png'
-import { SearchRounded } from "@mui/icons-material";
-import { ShoppingBasket } from "@mui/icons-material";
+// import { SearchRounded } from "@mui/icons-material";
+// import { ShoppingBasket } from "@mui/icons-material";
 
 const Header = () => {
     return <div className="header">
@@ -15,7 +15,7 @@ const Header = () => {
             <input className="header-searchIn"
                 type="text">   
             </input>
-            <SearchRounded className="header-search-icon"/>
+            {/* <SearchRounded className="header-search-icon"/> */}
         </div>
 
 
@@ -50,7 +50,7 @@ const Header = () => {
                 </span>
             </div>
             <div className="option-basket">
-                <ShoppingBasket/>
+                {/* <ShoppingBasket/> */}
                 <span className="header-optionlineTwo header-count">0</span>
             </div>
         </div>
